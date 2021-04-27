@@ -45,6 +45,7 @@ function checkTask(event){
     const todo = event.target.nextSibling;
     if(event.target.checked){
         document.querySelector('ul').style.textDecoration = "line-through";
-
+    } else {
+        document.querySelector('ul').style.textDecoration = "none";
     }
 }
